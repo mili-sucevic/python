@@ -1,0 +1,16 @@
+aws-cfn-bootstrap==2.0
+beautifulsoup4==4.11.1
+bs4==0.0.1
+certifi==2022.6.15
+charset-normalizer==2.0.12
+commonmark==0.9.1
+dataclasses==0.8
+idna==3.3
+pip-search==0.0.12
+Pygments==2.12.0
+requests==2.27.1
+rich==12.4.4
+soupsieve==2.3.2.post1
+typing-extensions==4.1.1
+urllib3==1.26.9
+virtualenv==15.1.0
