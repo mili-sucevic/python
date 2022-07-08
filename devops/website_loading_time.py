@@ -1,7 +1,6 @@
 from urllib.request import urlopen
 import time
 
-
 def get_load_time(url):
     if ("https" or "http") in url:  # Checking for presence of protocols
         open_this_url = urlopen(url)  # Open the url as entered by the user
