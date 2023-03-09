@@ -1,12 +1,10 @@
 import boto3
-import json
 
 def list_s3_buckets():
     s3 = boto3.client("s3")
     response = s3.list_buckets()
-    
-    buckets = response["Buckets"]
-    for bucket in buckets:
-        print(json.dumps(bucket, indent=4))
+
+    for bucket in response["Buckets"]:
+        print(bucket["Name"])
 
 list_s3_buckets()
